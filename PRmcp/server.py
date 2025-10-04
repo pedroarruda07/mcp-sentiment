@@ -9,7 +9,7 @@ import os
 mcp = FastMCP("pr-agent")
 
 # PR template directory 
-TEMPLATES_DIR = Path(__file__).parent.parent.parent / "templates"
+TEMPLATES_DIR = Path(__file__).parent / "templates"
 
 DEFAULT_TEMPLATES = {
     "bug.md": "Bug Fix",
